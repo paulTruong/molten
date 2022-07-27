@@ -1,7 +1,7 @@
 <?php
 return [
     'title' => __('Three columns with a menu item in each' , 'molten'),
-    'categories' => array( 'menu' ),
+    'categories' => array( 'molten-menu' ),
     'content' => '<!-- wp:columns {"verticalAlignment":null,"align":"wide"} -->
     <div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"bottom"} -->
     <div class="wp-block-column is-vertically-aligned-bottom"><!-- wp:heading {"level":3} -->

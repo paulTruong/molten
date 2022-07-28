@@ -2,8 +2,8 @@
 return [
     'title' => __('A banquet style layout for listing your banquet and the courses' , 'molten'),
     'categories' => array( 'molten-menu' ),
-    'content' => '<!-- wp:heading {"textAlign":"center","align":"wide","fontSize":"x-large"} -->
-    <h2 class="alignwide has-text-align-center has-x-large-font-size">Lunch—5 course degustation—$85pp </h2>
+    'content' => '<!-- wp:heading {"textAlign":"center","align":"wide","fontSize":"x-large","style":{"spacing":{"margin":{"top":"var(--wp--custom--spacing--top-spacing, 8rem)"}}}} -->
+    <h2 class="alignwide has-text-align-center has-x-large-font-size" style="margin-top:var(--wp--custom--spacing--top-spacing, 8rem)">Lunch—5 course degustation—$85pp</h2>
     <!-- /wp:heading -->
 
     <!-- wp:separator {"backgroundColor":"foreground","className":"is-style-default"} -->

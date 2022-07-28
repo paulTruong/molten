@@ -3,7 +3,7 @@ return [
     'title' => __('Hero with text with an offset image below' , 'molten'),
     'categories' => array( 'molten-hero' ),
     'content' => '<!-- wp:heading {"textAlign":"left","align":"wide","style":{"spacing":{"margin":{"top":"var(--wp--custom--spacing--top-spacing, 8rem)"}}},"fontSize":"huge"} -->
-    <h2 class="alignwide has-text-align-left has-huge-font-size" style="margin-top:var(--wp--custom--spacing--top-spacing, 8rem)";>Fresh, locally sourced produce <br>in a relaxed atmosphere</h2>
+    <h2 class="alignwide has-text-align-left has-huge-font-size" style="margin-top:var(--wp--custom--spacing--top-spacing, 8rem)">Fresh, locally sourced produce <br>in a relaxed atmosphere</h2>
     <!-- /wp:heading -->
 
     <!-- wp:columns {"verticalAlignment":null,"style":{"spacing":{"margin":{"top":"var(--wp--custom--spacing--top-spacing, 8rem)"}}},"align":"wide"} -->

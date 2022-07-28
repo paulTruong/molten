@@ -2,8 +2,8 @@
 return [
     'title' => __('Media text block with heading, text and a button' , 'molten'),
     'categories' => array( 'molten-cta' ),
-    'content' => '<!-- wp:group {"style":{"spacing":{"margin":{"top":"48px","bottom":"48px"}}}} -->
-    <div class="wp-block-group" style="margin-top:48px;margin-bottom:48px"><!-- wp:media-text {"align":"","mediaId":19,"mediaLink":"http://molten-theme.local/hero-patterns/aleksandar-andreev-8wpkfnhdd_4-unsplash-min/","mediaType":"image","verticalAlignment":"center","imageFill":false} -->
+    'content' => '<!-- wp:group {"style":{"spacing":{"margin":{"top":"var(--wp--custom--spacing--top-spacing, 8rem)","bottom":"48px"}}}} -->
+    <div class="wp-block-group" style="margin-top:var(--wp--custom--spacing--top-spacing, 8rem);margin-bottom:48px"><!-- wp:media-text {"align":"","mediaId":19,"mediaLink":"http://molten-theme.local/hero-patterns/aleksandar-andreev-8wpkfnhdd_4-unsplash-min/","mediaType":"image","verticalAlignment":"center","imageFill":false} -->
     <div class="wp-block-media-text is-stacked-on-mobile is-vertically-aligned-center"><figure class="wp-block-media-text__media"><img src="http://molten-theme.local/wp-content/uploads/2022/07/aleksandar-andreev-8WpKFnhdd_4-unsplash-min-e1657105486245-914x1024.jpg" alt="" class="wp-image-19 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:heading {"textAlign":"left","style":{"spacing":{"margin":{"top":"0px"}}},"fontSize":"large"} -->
     <h2 class="has-text-align-left has-large-font-size" style="margin-top:0px">Make a reservation</h2>
     <!-- /wp:heading -->

@@ -3,8 +3,8 @@ return [
     'title' => __('Three columns, content in the left column and an image in the other two', 'molten'),
     'categories' => array('molten-cta'),
     'content' => '
-    <!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"top":"64px","bottom":"64px"}}}} -->
-<div class="wp-block-columns alignwide" style="margin-top:64px;margin-bottom:64px"><!-- wp:column -->
+    <!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"top":"var(--wp--custom--spacing--top-spacing, 8rem)","bottom":"64px"},"blockGap":"72px"}}} -->
+<div class="wp-block-columns alignwide" style="margin-top:var(--wp--custom--spacing--top-spacing, 8rem);margin-bottom:64px"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading -->
 <h2>Good food</h2>
 <!-- /wp:heading -->

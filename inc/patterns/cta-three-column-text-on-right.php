@@ -3,7 +3,7 @@ return [
     'title' => __('Three columns, content in the right column and an image in the other two', 'molten'),
     'categories' => array('molten-cta'),
     'content' => '
-    <!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"top":"var(--wp--custom--spacing--top-spacing, 8rem)","bottom":"64px"}}}} -->
+    <!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"top":"var(--wp--custom--spacing--top-spacing, 8rem)","bottom":"64px"},"blockGap":"72px"}}} -->
 <div class="wp-block-columns alignwide" style="margin-top:var(--wp--custom--spacing--top-spacing, 8rem);margin-bottom:64px"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"id":209,"sizeSlug":"large","linkDestination":"none"} -->
 <figure class="wp-block-image size-large"><img src="http://molten-theme.local/wp-content/uploads/2022/07/victoria-shes-8OpyEpJVgiQ-unsplash-683x1024.jpg" alt="" class="wp-image-209"/></figure>

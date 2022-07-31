@@ -65,14 +65,70 @@
         "typography": {
             "fontFamilies": [
                 {
-                    "name": "Playfair Display",
+                    "fontFamily": "\"Playfair Display\",serif",
                     "slug": "playfair-display",
-                    "fontFamily": "\"Playfair Display\",BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif"
+                    "name": "Playfair Display",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Playfair Display",
+                            "fontWeight": "200 900",
+                            "fontStyle": "normal",
+                            "fontDisplay": "swap",
+                            "src": [
+                                "file:./assets/fonts/PlayfairDisplay-VariableFont_wght.ttf"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Playfair Display",
+                            "fontWeight": "200 900",
+                            "fontStyle": "italic",
+                            "fontDisplay": "swap",
+                            "src": [
+                                "file:./assets/fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf"
+                            ]
+                        }
+                    ]
                 },
                 {
-                    "name": "Source Sans Pro",
+                    "fontFamily": "\"Source Sans Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen-Sans\", \"Ubuntu\", \"Cantarell\", \"Helvetica Neue\", sans-serif",
                     "slug": "source-sans-pro",
-                    "fontFamily": "\"Source Sans Pro\", serif"
+                    "name": "Source Sans Pro",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Source Sans Pro",
+                            "fontStyle": "normal",
+                            "fontDisplay": "swap",
+                            "src": [
+                                "file:./assets/fonts/source-sans-pro-regular.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Source Sans Pro",
+                            "fontStyle": "normal",
+                            "fontWeight": "700",
+                            "fontDisplay": "swap",
+                            "src": [
+                                "file:./assets/fonts/source-sans-pro-700.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Source Sans Pro",
+                            "fontStyle": "italic",
+                            "fontDisplay": "swap",
+                            "src": [
+                                "file:./assets/fonts/source-sans-pro-italic.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Source Sans Pro",
+                            "fontStyle": "italic",
+                            "fontWeight": "700",
+                            "fontDisplay": "swap",
+                            "src": [
+                                "file:./assets/fonts/source-sans-pro-700italic.woff2"
+                            ]
+                        }
+                    ]
                 }
             ],
             "fontSizes": [
@@ -188,6 +244,11 @@
                     "fontFamily": "var(--wp--preset--font-family--playfair-display)"
                 }
             },
+            "core/navigation-link": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--playfair-display)"
+                }
+            },
             "core/pullquote": {
                 "typography": {
                     "fontFamily": "var(--wp--preset--font-family--playfair-display)"
@@ -206,9 +267,6 @@
                     "link": {
                         "color": {
                             "text": "var(--wp--preset--color--foreground)"
-                        },
-                        "typography": {
-                            "textDecoration": "none"
                         }
                     }
                 }

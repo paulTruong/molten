@@ -102,6 +102,10 @@ a:hover {
   background-color: var(--wp--preset--color--background);
 }
 
+.wp-block-columns {
+  gap: var(--wp--custom--spacing--gap--horizontal, 32px) !important;
+}
+
 /*
  * Media Text block styles
  */
@@ -123,5 +127,26 @@ a:hover {
 @media (max-width: 600px) {
   .wp-block-media-text.is-stacked-on-mobile .wp-block-media-text__content {
     padding-left: 0;
+  }
+}
+
+/* Theme specific styles */
+.mobile-order-0 {
+  order: 0;
+}
+
+.mobile-order-1 {
+  order: 1;
+}
+
+.mobile-order-2 {
+  order: 2;
+}
+
+@media (min-width: 782px) {
+  .mobile-order-0,
+  .mobile-order-1,
+  .mobile-order-2 {
+    order: 0;
   }
 }

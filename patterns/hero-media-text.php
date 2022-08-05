@@ -6,9 +6,9 @@
  * Categories: molten-hero
  */
 ?>
-<!-- wp:media-text {"align":"full","mediaPosition":"right","mediaId":23,"mediaLink":"<?php esc_url(get_template_directory_uri()) . '/assets/images/beef-wellington-min.jpg' ?>","mediaType":"image","mediaSizeSlug":"full","imageFill":false} -->
+<!-- wp:media-text {"align":"full","mediaPosition":"right","mediaId":23,"mediaLink":"<?php echo esc_url(get_template_directory_uri()) . '/assets/images/beef-wellington-min.jpg' ?>","mediaType":"image","mediaSizeSlug":"full","imageFill":false} -->
 <div class="wp-block-media-text alignfull has-media-on-the-right is-stacked-on-mobile">
-    <figure class="wp-block-media-text__media"><img src="<?php esc_url(get_template_directory_uri()) . '/assets/images/beef-wellington-min.jpg' ?>" alt="" class="wp-image-23 size-full" /></figure>
+    <figure class="wp-block-media-text__media"><img src="<?php echo esc_url(get_template_directory_uri()) . '/assets/images/beef-wellington-min.jpg' ?>" alt="" class="wp-image-23 size-full" /></figure>
     <div class="wp-block-media-text__content">
         <!-- wp:heading {"textAlign":"left"} -->
         <h2 class="has-text-align-left">A first class experience</h2>

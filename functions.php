@@ -29,11 +29,11 @@ add_action('wp_head', 'molten_preload_webfonts');
 function molten_register_block_patterns()
 {
     $block_pattern_categories = [
+        'molten-coming-soon' => ['label' => __('Molten Coming Soon', 'molten')],
+        'molten-cta'         => ['label' => __('Molten Call To Actions', 'molten')],
         'molten-hero'        => ['label' => __('Molten Hero', 'molten')],
         'molten-location'    => ['label' => __('Molten Location', 'molten')],
         'molten-menu'        => ['label' => __('Molten Menu', 'molten')],
-        'molten-cta'         => ['label' => __('Molten Call To Actions', 'molten')],
-        'molten-coming-soon' => ['label' => __('Molten Coming Soon', 'molten')],
     ];
 
     foreach ($block_pattern_categories as $name => $properties) {
@@ -42,4 +42,4 @@ function molten_register_block_patterns()
         }
     }
 }
-add_action('init', 'molten_register_block_patterns', 10);
+add_action('init', 'molten_register_block_patterns');

@@ -6,8 +6,8 @@
  * Categories: molten-menu
  */
 ?>
-<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"var(--wp--custom--spacing--gap--horizontal, 24px)"}}} -->
-<div class="wp-block-columns alignwide">
+<!-- wp:columns {"align":"wide", "style":{"spacing":{"margin":{"top":"var(--wp--custom--spacing--gap--vertical, 32px)","bottom":"var(--wp--custom--spacing--gap--vertical, 32px)"}}}} -->
+<div class="wp-block-columns alignwide" style="margin-top:var(--wp--custom--spacing--gap--vertical, 32px);margin-bottom:var(--wp--custom--spacing--gap--vertical, 32px)">
     <!-- wp:column {"verticalAlignment":"bottom"} -->
     <div class="wp-block-column is-vertically-aligned-bottom">
         <!-- wp:heading {"level":3} -->

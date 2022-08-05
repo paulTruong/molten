@@ -6,7 +6,7 @@
  * Categories: molten-menu
  */
 ?>
-<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"var(--wp--custom--spacing--gap--horizontal, 24px)"}}} -->
+<!-- wp:columns {"align":"wide"} -->
 <div class="wp-block-columns alignwide">
     <!-- wp:column -->
     <div class="wp-block-column">

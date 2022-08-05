@@ -6,7 +6,7 @@
  * Categories: molten-cta
  */
 ?>
-<!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"top":"var(--wp--custom--spacing--gap--vertical, 32px)","bottom":"var(--wp--custom--spacing--gap--vertical, 32px)"},"blockGap":"var(--wp--custom--spacing--gap--horizontal, 24px)"}}} -->
+<!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"top":"var(--wp--custom--spacing--gap--vertical, 32px)","bottom":"var(--wp--custom--spacing--gap--vertical, 32px)"},"blockGap":"4vw"}}} -->
 <div class="wp-block-columns alignwide" style="margin-top:var(--wp--custom--spacing--gap--vertical, 32px);margin-bottom:var(--wp--custom--spacing--gap--vertical, 32px)">
     <!-- wp:column -->
     <div class="wp-block-column">

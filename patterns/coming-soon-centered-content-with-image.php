@@ -1,7 +1,6 @@
 <?php
-
 /**
- * Title: Content centered with an image
+ * Title: Content centered with an image.
  * Slug: molten/coming-soon-centered-content-with-image
  * Categories: molten-coming-soon
  */

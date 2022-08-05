@@ -65,6 +65,9 @@
             "contentSize": "800px",
             "wideSize": "1440px"
         },
+        "spacing": {
+            "blockGap": true
+        },
         "typography": {
             "fontFamilies": [
                 {
@@ -308,7 +311,7 @@
             }
         },
         "spacing": {
-            "blockGap": "24px"
+            "blockGap": "1.5rem"
         }
     },
     "templateParts": [

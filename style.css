@@ -71,7 +71,6 @@ body > .is-root-container > .wp-block-template-part > .wp-block-cover,
   margin-block-start: 0;
 }
 
-
 h3 + p {
   --wp--style--block-gap: 1rem;
 }
@@ -80,15 +79,49 @@ p + h2 {
   --wp--style--block-gap: 3rem;
 }
 
+a,
+a:visited {
+  color: var(--wp--preset--color--foreground);
+}
+
+a:hover {
+  background-color: var(--wp--preset--color--foreground);
+  color: var(--wp--preset--color--background);
+}
+
 /*
  * Button hover styles.
  * Necessary until the following issue is resolved in Gutenberg:
  * https://github.com/WordPress/gutenberg/issues/27075
  */
 
- .wp-block-search__button:hover,
- .wp-block-file .wp-block-file__button:hover,
- .wp-block-button__link:hover {
-     color: var(--wp--preset--color--foreground);
-     background-color: var(--wp--preset--color--background);
- }
+.wp-block-search__button:hover,
+.wp-block-file .wp-block-file__button:hover,
+.wp-block-button__link:hover {
+  color: var(--wp--preset--color--foreground);
+  background-color: var(--wp--preset--color--background);
+}
+
+/*
+ * Media Text block styles
+ */
+
+.wp-block-media-text .wp-block-media-text__content {
+  padding: 0;
+  padding-left: 8%;
+}
+
+.wp-block-media-text.has-media-on-the-right .wp-block-media-text__content {
+  padding-left: 0;
+  padding-right: 8%;
+}
+
+.wp-block-media-text.is-stacked-on-mobile .wp-block-media-text__content {
+  padding-top: 8%;
+}
+
+@media (max-width: 600px) {
+  .wp-block-media-text.is-stacked-on-mobile .wp-block-media-text__content {
+    padding-left: 0;
+  }
+}

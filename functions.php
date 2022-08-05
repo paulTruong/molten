@@ -26,5 +26,20 @@ function molten_preload_webfonts()
 }
 add_action('wp_head', 'molten_preload_webfonts');
 
-// Register block patterns
-require get_template_directory() . '/inc/block-patterns.php';
+function molten_register_block_patterns()
+{
+    $block_pattern_categories = [
+        'molten-hero'        => ['label' => __('Molten Hero', 'molten')],
+        'molten-location'    => ['label' => __('Molten Location', 'molten')],
+        'molten-menu'        => ['label' => __('Molten Menu', 'molten')],
+        'molten-cta'         => ['label' => __('Molten Call To Actions', 'molten')],
+        'molten-coming-soon' => ['label' => __('Molten Coming Soon', 'molten')],
+    ];
+
+    foreach ($block_pattern_categories as $name => $properties) {
+        if (!WP_Block_Pattern_Categories_Registry::get_instance()->is_registered($name)) {
+            register_block_pattern_category($name, $properties);
+        }
+    }
+}
+add_action('init', 'molten_register_block_patterns', 10);

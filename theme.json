@@ -11,11 +11,10 @@
             ]
         },
         {
-            "name": "template-just-content",
-            "title": "Just Content",
+            "name": "template-hide-title",
+            "title": "Hide Title",
             "postTypes": [
-                "page",
-                "post"
+                "page"
             ]
         },
         {
@@ -279,11 +278,6 @@
                     }
                 }
             },
-            "core/pullquote": {
-                "typography": {
-                    "fontFamily": "var(--wp--preset--font-family--playfair-display)"
-                }
-            },
             "core/site-title": {
                 "typography": {
                     "fontFamily": "var(--wp--preset--font-family--playfair-display)",
@@ -297,6 +291,9 @@
                     "link": {
                         "color": {
                             "text": "var(--wp--preset--color--foreground)"
+                        },
+                        "typography": {
+                            "textDecoration": "none"
                         }
                     }
                 }

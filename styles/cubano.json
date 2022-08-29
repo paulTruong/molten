@@ -92,6 +92,11 @@
                     "fontFamily": "var(--wp--preset--font-family--inconsolata)"
                 }
             },
+            "core/quote": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--inconsolata)"
+                }
+            },
             "core/site-title": {
                 "typography": {
                     "fontFamily": "var(--wp--preset--font-family--inconsolata)",

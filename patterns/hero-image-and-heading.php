@@ -6,10 +6,11 @@
  * Categories: molten-hero
  */
 ?>
-<!-- wp:group {"align":"wide","layout":{"inherit":false,"wideSize":"1200px"}} -->
-<div class="wp-block-group alignwide">
+<!-- wp:group {"align":"wide","layout":{"inherit":false,"wideSize":"1200px"}, "style":{"spacing":{"margin":{"top":"var(--wp--custom--spacing--gap--vertical, 32px)","bottom":"var(--wp--custom--spacing--gap--vertical, 32px)"}}}} -->
+<div class="wp-block-group alignwide" style="margin-top:var(--wp--custom--spacing--gap--vertical, 32px);margin-bottom:var(--wp--custom--spacing--gap--vertical, 32px)">
+
     <!-- wp:image {"align":"wide","id":29,"sizeSlug":"full","linkDestination":"none"} -->
-    <figure class="wp-block-image alignwide size-full"><img src="<?php echo esc_url(get_template_directory_uri()) . '/assets/images/dessert.jpg' ?>" alt="" class="wp-image-29" /></figure>
+    <figure class="wp-block-image alignwide size-full"><img src="<?php echo esc_url(get_template_directory_uri()) . '/assets/images/fancy-dessert-min.jpg' ?>" alt="" class="wp-image-29" /></figure>
     <!-- /wp:image -->
 
     <!-- wp:group {"align":"wide","layout":{"inherit":true}} -->

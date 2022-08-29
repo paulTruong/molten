@@ -6,12 +6,12 @@
  * Categories: molten-cta
  */
 ?>
-<!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"top":"var(--wp--custom--spacing--gap--vertical, 32px)","bottom":"var(--wp--custom--spacing--gap--vertical, 32px)"}}}} -->
+<!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"top":"var(--wp--custom--spacing--gap--vertical, 32px)","bottom":"var(--wp--custom--spacing--gap--vertical, 32px)"},"blockGap":"4vw"}}} -->
 <div class="wp-block-columns alignwide" style="margin-top:var(--wp--custom--spacing--gap--vertical, 32px);margin-bottom:var(--wp--custom--spacing--gap--vertical, 32px)">
     <!-- wp:column -->
     <div class="wp-block-column mobile-order-2">
         <!-- wp:image {"id":209,"sizeSlug":"large","linkDestination":"none"} -->
-        <figure class="wp-block-image size-large"><img src="http://molten-theme.local/wp-content/uploads/2022/07/victoria-shes-8OpyEpJVgiQ-unsplash-683x1024.jpg" alt="" class="wp-image-209" /></figure>
+        <figure class="wp-block-image size-large"><img src="<?php echo esc_url(get_template_directory_uri()) . '/assets/images/orange-cocktail-min.jpg' ?>" alt="" class="wp-image-209" /></figure>
         <!-- /wp:image -->
     </div>
     <!-- /wp:column -->
@@ -19,7 +19,7 @@
     <!-- wp:column -->
     <div class="wp-block-column mobile-order-1">
         <!-- wp:image {"id":210,"sizeSlug":"large","linkDestination":"none"} -->
-        <figure class="wp-block-image size-large"><img src="http://molten-theme.local/wp-content/uploads/2022/07/gaby-yerden-3x2cFCoBeEQ-unsplash-683x1024.jpg" alt="" class="wp-image-210" /></figure>
+        <figure class="wp-block-image size-large"><img src="<?php echo esc_url(get_template_directory_uri()) . '/assets/images/fig-cocktail-min.jpg' ?>" alt="" class="wp-image-210" /></figure>
         <!-- /wp:image -->
     </div>
     <!-- /wp:column -->

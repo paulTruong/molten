@@ -89,6 +89,18 @@ a:hover {
   color: var(--wp--preset--color--background);
 }
 
+.wp-block-site-title a:hover,
+.custom-logo-link:hover,
+nav a:hover {
+  color: var(--wp--preset--color--foreground);
+  background-color: unset;
+  text-decoration: underline;
+}
+
+.wp-social-link a:hover {
+    background-color: unset;
+}
+
 /*
  * Button hover styles.
  * Necessary until the following issue is resolved in Gutenberg:
@@ -103,7 +115,7 @@ a:hover {
 }
 
 .wp-block-columns {
-  gap: var(--wp--custom--spacing--gap--horizontal, 32px) !important;
+  /* gap: var(--wp--custom--spacing--gap--horizontal, 32px) !important; */
 }
 
 /*
@@ -128,6 +140,10 @@ a:hover {
   .wp-block-media-text.is-stacked-on-mobile .wp-block-media-text__content {
     padding-left: 0;
   }
+}
+
+.wp-block-separator.is-style-default {
+    max-width: 60px;
 }
 
 /* Theme specific styles */

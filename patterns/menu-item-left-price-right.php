@@ -6,14 +6,14 @@
  * Categories: molten-menu
  */
 ?>
-<!-- wp:group {"align":"wide"} -->
-<div class="wp-block-group alignwide">
+<!-- wp:group {"style":{"spacing":{"blockGap":"8px"}}} -->
+<div class="wp-block-group">
     <!-- wp:paragraph -->
     <p><strong>Benedict (V*, VG*, GF*)</strong></p>
     <!-- /wp:paragraph -->
 
-    <!-- wp:columns {"verticalAlignment":"top","style":{"spacing":{"margin":{"top":"0px"}}}} -->
-    <div class="wp-block-columns are-vertically-aligned-top" style="margin-top:0px">
+    <!-- wp:columns {"verticalAlignment":"top","style":{"spacing":{"blockGap":"4vw"}}} -->
+    <div class="wp-block-columns are-vertically-aligned-top">
         <!-- wp:column {"verticalAlignment":"top","width":"66.66%"} -->
         <div class="wp-block-column is-vertically-aligned-top" style="flex-basis:66.66%">
             <!-- wp:paragraph -->
@@ -34,14 +34,14 @@
 </div>
 <!-- /wp:group -->
 
-<!-- wp:group {"align":"wide"} -->
-<div class="wp-block-group alignwide">
+<!-- wp:group {"style":{"spacing":{"blockGap":"8px"}}} -->
+<div class="wp-block-group">
     <!-- wp:paragraph -->
-    <p><strong><strong>Breakfast fritters</strong></strong></p>
+    <p><strong><strong><strong>Breakfast fritters</strong></strong></strong></p>
     <!-- /wp:paragraph -->
 
-    <!-- wp:columns {"verticalAlignment":"top","style":{"spacing":{"margin":{"top":"0px"}}}} -->
-    <div class="wp-block-columns are-vertically-aligned-top" style="margin-top:0px">
+    <!-- wp:columns {"verticalAlignment":"top","style":{"spacing":{"blockGap":"4vw"}}} -->
+    <div class="wp-block-columns are-vertically-aligned-top">
         <!-- wp:column {"verticalAlignment":"top","width":"66.66%"} -->
         <div class="wp-block-column is-vertically-aligned-top" style="flex-basis:66.66%">
             <!-- wp:paragraph -->
@@ -62,14 +62,14 @@
 </div>
 <!-- /wp:group -->
 
-<!-- wp:group {"align":"wide"} -->
-<div class="wp-block-group alignwide">
+<!-- wp:group {"style":{"spacing":{"blockGap":"8px"}}} -->
+<div class="wp-block-group">
     <!-- wp:paragraph -->
-    <p><strong><strong>Big Breakfast</strong></strong></p>
+    <p><strong><strong><strong>Big Breakfast</strong></strong></strong></p>
     <!-- /wp:paragraph -->
 
-    <!-- wp:columns {"verticalAlignment":"top","style":{"spacing":{"margin":{"top":"0px"}}}} -->
-    <div class="wp-block-columns are-vertically-aligned-top" style="margin-top:0px">
+    <!-- wp:columns {"verticalAlignment":"top","style":{"spacing":{"blockGap":"4vw"}}} -->
+    <div class="wp-block-columns are-vertically-aligned-top">
         <!-- wp:column {"verticalAlignment":"top","width":"66.66%"} -->
         <div class="wp-block-column is-vertically-aligned-top" style="flex-basis:66.66%">
             <!-- wp:paragraph -->

@@ -92,6 +92,11 @@
                     "fontFamily": "var(--wp--preset--font-family--source-sans-pro)"
                 }
             },
+            "core/quote": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--source-sans-pro)"
+                }
+            },
             "core/site-title": {
                 "typography": {
                     "fontFamily": "var(--wp--preset--font-family--source-sans-pro)",

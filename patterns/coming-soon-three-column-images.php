@@ -37,7 +37,7 @@
         <!-- wp:column -->
         <div class="wp-block-column">
             <!-- wp:image {"id":23,"sizeSlug":"large","linkDestination":"none"} -->
-            <figure class="wp-block-image size-large"><img src="http://molten-theme.local/wp-content/uploads/2022/07/jirayu-koontholjinda-gfraywnI42s-unsplash-min-683x1024.jpg" alt="" class="wp-image-23" /></figure>
+            <figure class="wp-block-image size-large"><img src="<?php echo esc_url(get_template_directory_uri()) . '/assets/images/beef-wellington-min.jpg' ?>" alt="" class="wp-image-23" /></figure>
             <!-- /wp:image -->
         </div>
         <!-- /wp:column -->
@@ -45,7 +45,7 @@
         <!-- wp:column -->
         <div class="wp-block-column">
             <!-- wp:image {"id":23,"sizeSlug":"large","linkDestination":"none"} -->
-            <figure class="wp-block-image size-large"><img src="http://molten-theme.local/wp-content/uploads/2022/07/jirayu-koontholjinda-gfraywnI42s-unsplash-min-683x1024.jpg" alt="" class="wp-image-23" /></figure>
+            <figure class="wp-block-image size-large"><img src="<?php echo esc_url(get_template_directory_uri()) . '/assets/images/beef-wellington-min.jpg' ?>" alt="" class="wp-image-23" /></figure>
             <!-- /wp:image -->
         </div>
         <!-- /wp:column -->
@@ -53,7 +53,7 @@
         <!-- wp:column -->
         <div class="wp-block-column">
             <!-- wp:image {"id":23,"sizeSlug":"large","linkDestination":"none"} -->
-            <figure class="wp-block-image size-large"><img src="http://molten-theme.local/wp-content/uploads/2022/07/jirayu-koontholjinda-gfraywnI42s-unsplash-min-683x1024.jpg" alt="" class="wp-image-23" /></figure>
+            <figure class="wp-block-image size-large"><img src="<?php echo esc_url(get_template_directory_uri()) . '/assets/images/beef-wellington-min.jpg' ?>" alt="" class="wp-image-23" /></figure>
             <!-- /wp:image -->
         </div>
         <!-- /wp:column -->

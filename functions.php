@@ -31,6 +31,7 @@ function molten_register_block_patterns()
     $block_pattern_categories = [
         'molten-coming-soon' => ['label' => __('Molten Coming Soon', 'molten')],
         'molten-cta'         => ['label' => __('Molten Call To Actions', 'molten')],
+        'molten-gallery'     => ['label' => __('Molten Gallery', 'molten')],
         'molten-hero'        => ['label' => __('Molten Hero', 'molten')],
         'molten-location'    => ['label' => __('Molten Location', 'molten')],
         'molten-menu'        => ['label' => __('Molten Menu', 'molten')],

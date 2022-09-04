@@ -6,8 +6,9 @@
  * Categories: molten-hero
  */
 ?>
-<!-- wp:cover {"url":"<?php echo esc_url(get_template_directory_uri()) . '/assets/images/warm-dinner-setting-min.jpg' ?>","id":27,"dimRatio":60,"overlayColor":"foreground","minHeight":600,"contentPosition":"center center","align":"full", "style":{"spacing":{"margin":{"top":"var(--wp--custom--spacing--gap--vertical, 32px)", "bottom":"var(--wp--custom--spacing--gap--vertical, 32px)"}}}} -->
-<div class="wp-block-cover alignfull" style="min-height:600px;margin-top:var(--wp--custom--spacing--gap--vertical, 32px);margin-bottom:var(--wp--custom--spacing--gap--vertical, 32px)"><span aria-hidden="true" class="wp-block-cover__background has-foreground-background-color has-background-dim-60 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-27" alt="" src="<?php echo esc_url(get_template_directory_uri()) . '/assets/images/warm-dinner-setting-min.jpg' ?>" data-object-fit="cover" />
+
+<!-- wp:cover {"url":"<?php echo esc_url(get_template_directory_uri()) . '/assets/images/warm-dinner-setting-min.jpg' ?>","id":27,"dimRatio":80,"customOverlayColor":"#111111","minHeight":600,"contentPosition":"center center","align":"full","style":{"spacing":{"margin":{"top":"var(--wp--custom--spacing--gap--vertical, 32px)", "bottom":"var(--wp--custom--spacing--gap--vertical, 32px)"}}}} -->
+<div class="wp-block-cover alignfull" style="margin-top:var(--wp--custom--spacing--gap--vertical, 32px);margin-bottom:var(--wp--custom--spacing--gap--vertical, 32px);min-height:600px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-80 has-background-dim" style="background-color:#111111"></span><img class="wp-block-cover__image-background wp-image-27" alt="" src="<?php echo esc_url(get_template_directory_uri()) . '/assets/images/warm-dinner-setting-min.jpg' ?>" data-object-fit="cover" />
     <div class="wp-block-cover__inner-container">
         <!-- wp:group {"align":"wide","layout":{"inherit":true}} -->
         <div class="wp-block-group alignwide">
@@ -27,8 +28,8 @@
 
                         <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"}} -->
                         <div class="wp-block-buttons">
-                            <!-- wp:button -->
-                            <div class="wp-block-button"><a class="wp-block-button__link">Book a table</a></div>
+                            <!-- wp:button {"className":"is-style-fill"} -->
+                            <div class="wp-block-button is-style-fill"><a class="wp-block-button__link">Book a table</a></div>
                             <!-- /wp:button -->
                         </div>
                         <!-- /wp:buttons -->

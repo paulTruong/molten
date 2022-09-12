@@ -72,11 +72,11 @@ https://www.rawpixel.com/image/5924172/photo-image-background-public-domain-cele
 Bread and pastries on a display in a bakery. CC0
 https://www.rawpixel.com/image/3337359/free-photo-image-restaurant-buffet-cafeteria
 
-Free coffee shop patio with white shades
+Free coffee shop patio with white shades. CC0
 https://www.rawpixel.com/image/5921193/photo-image-public-domain-plant-people
 
-Avocado toast with egg and herbs on a rustic table
+Avocado toast with egg and herbs on a rustic table. CC0
 https://www.rawpixel.com/image/3283029/free-photo-image-breakfast-egg-avocado-toast-food
 
-woman seasoning her meal with hot spice image
+woman seasoning her meal with hot spice image. CC0
 https://www.rawpixel.com/image/5928211/photo-image-background-public-domain-hands

@@ -9,10 +9,14 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
+Molten is a theme built for the owners of cafes, restaurants, food trucks, bars and any establishment that sells food and drink.
+
+It was built for you to quickly get a beautiful website up and running so you can focus on providing great service and for for your guests.
+
 == Changelog ==
 
 = 1.0 =
-* Released: January 25, 2022
+Released:
 
 == Copyright ==
 

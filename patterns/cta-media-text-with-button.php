@@ -9,9 +9,9 @@
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"var(--wp--custom--spacing--gap--vertical, 32px)","bottom":"var(--wp--custom--spacing--gap--vertical, 32px)"}}}} -->
 <div class="wp-block-group" style="margin-top:var(--wp--custom--spacing--gap--vertical, 32px);margin-bottom:var(--wp--custom--spacing--gap--vertical, 32px)">
-    <!-- wp:media-text {"align":"","mediaId":19,"mediaLink":"<?php echo esc_url(get_template_directory_uri()) . '/assets/images/people-sitting-at-bar-min.jpg' ?>","mediaType":"image","verticalAlignment":"center","imageFill":false} -->
+    <!-- wp:media-text {"align":"","mediaId":19,"mediaLink":"<?php echo esc_url(get_template_directory_uri()) . '/assets/images/open-kitchen.jpg' ?>","mediaType":"image","verticalAlignment":"center","imageFill":false} -->
     <div class="wp-block-media-text is-stacked-on-mobile is-vertically-aligned-center">
-        <figure class="wp-block-media-text__media"><img src="<?php echo esc_url(get_template_directory_uri()) . '/assets/images/people-sitting-at-bar-min.jpg' ?>" alt="" class="wp-image-19 size-full" /></figure>
+        <figure class="wp-block-media-text__media"><img src="<?php echo esc_url(get_template_directory_uri()) . '/assets/images/open-kitchen.jpg' ?>" alt="" class="wp-image-19 size-full" /></figure>
         <div class="wp-block-media-text__content">
             <!-- wp:heading {"textAlign":"left","style":{"spacing":{"margin":{"top":"0px"}}},"fontSize":"large"} -->
             <h2 class="has-text-align-left has-large-font-size" style="margin-top:0px">Make a reservation</h2>

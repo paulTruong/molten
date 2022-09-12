@@ -10,7 +10,7 @@
 <div class="wp-block-group alignwide" style="margin-top:var(--wp--custom--spacing--gap--vertical, 32px);margin-bottom:var(--wp--custom--spacing--gap--vertical, 32px)">
 
     <!-- wp:image {"align":"wide","id":29,"sizeSlug":"full","linkDestination":"none"} -->
-    <figure class="wp-block-image alignwide size-full"><img src="<?php echo esc_url(get_template_directory_uri()) . '/assets/images/fancy-dessert-min.jpg' ?>" alt="" class="wp-image-29" /></figure>
+    <figure class="wp-block-image alignwide size-full"><img src="<?php echo esc_url(get_template_directory_uri()) . '/assets/images/table-with-food.jpg' ?>" alt="" class="wp-image-29" /></figure>
     <!-- /wp:image -->
 
     <!-- wp:group {"align":"wide","layout":{"inherit":true}} -->

@@ -7,8 +7,8 @@
  */
 ?>
 
-<!-- wp:cover {"url":"<?php echo esc_url(get_template_directory_uri()) . '/assets/images/warm-dinner-setting-min.jpg' ?>","id":27,"dimRatio":80,"customOverlayColor":"#111111","minHeight":600,"contentPosition":"center center","align":"full","style":{"spacing":{"margin":{"top":"var(--wp--custom--spacing--gap--vertical, 32px)", "bottom":"var(--wp--custom--spacing--gap--vertical, 32px)"}}}} -->
-<div class="wp-block-cover alignfull" style="margin-top:var(--wp--custom--spacing--gap--vertical, 32px);margin-bottom:var(--wp--custom--spacing--gap--vertical, 32px);min-height:600px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-80 has-background-dim" style="background-color:#111111"></span><img class="wp-block-cover__image-background wp-image-27" alt="" src="<?php echo esc_url(get_template_directory_uri()) . '/assets/images/warm-dinner-setting-min.jpg' ?>" data-object-fit="cover" />
+<!-- wp:cover {"url":"<?php echo esc_url(get_template_directory_uri()) . '/assets/images/open-kitchen.jpg' ?>","id":27,"dimRatio":80,"customOverlayColor":"#111111","minHeight":600,"contentPosition":"center center","align":"full","style":{"spacing":{"margin":{"top":"var(--wp--custom--spacing--gap--vertical, 32px)", "bottom":"var(--wp--custom--spacing--gap--vertical, 32px)"}}}} -->
+<div class="wp-block-cover alignfull" style="margin-top:var(--wp--custom--spacing--gap--vertical, 32px);margin-bottom:var(--wp--custom--spacing--gap--vertical, 32px);min-height:600px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-80 has-background-dim" style="background-color:#111111"></span><img class="wp-block-cover__image-background wp-image-27" alt="" src="<?php echo esc_url(get_template_directory_uri()) . '/assets/images/open-kitchen.jpg' ?>" data-object-fit="cover" />
     <div class="wp-block-cover__inner-container">
         <!-- wp:group {"align":"wide","layout":{"inherit":true}} -->
         <div class="wp-block-group alignwide">

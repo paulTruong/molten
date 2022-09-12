@@ -1,5 +1,19 @@
 <?php
 
+/**
+ * Sets up theme defaults and registers support for various WordPress features.
+ */
+function molten_support()
+{
+
+    // Add support for block styles.
+    add_theme_support('wp-block-styles');
+
+    // Enqueue editor styles.
+    add_editor_style('style.css');
+}
+add_action('after_setup_theme', 'molten_support');
+
 function molten_styles()
 {
     // Register theme stylesheet.

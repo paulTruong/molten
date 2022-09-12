@@ -26,7 +26,7 @@
         <!-- wp:column {"verticalAlignment":"top","width":"70%","layout":{"inherit":false}} -->
         <div class="wp-block-column is-vertically-aligned-top" style="flex-basis:70%">
             <!-- wp:image {"id":233,"width":989,"height":614,"sizeSlug":"full","linkDestination":"none"} -->
-            <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url(get_template_directory_uri()) . '/assets/images/cafe-greenery.jpg' ?>" alt="" class="wp-image-233" width="989" height="614" /></figure>
+            <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url(get_template_directory_uri()) . '/assets/images/table-with-food.jpg' ?>" alt="" class="wp-image-233" width="989" height="614" /></figure>
             <!-- /wp:image -->
         </div>
         <!-- /wp:column -->

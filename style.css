@@ -79,9 +79,9 @@ p + h2 {
   --wp--style--block-gap: 3rem;
 }
 
-a,
-a:visited {
-  color: var(--wp--preset--color--foreground);
+a {
+  text-decoration-thickness: 2px;
+  transition: background-color 200ms ease-out;
 }
 
 a:hover {
@@ -94,11 +94,16 @@ a:hover {
 nav a:hover {
   color: var(--wp--preset--color--foreground);
   background-color: unset;
-  text-decoration: underline;
 }
 
 .wp-social-link a:hover {
-    background-color: unset;
+  background-color: unset;
+}
+
+.wp-block-navigation .wp-block-navigation-item a:hover,
+.wp-block-navigation .wp-block-navigation-item a:focus {
+  text-decoration: underline;
+  text-decoration-style: solid;
 }
 
 /*
@@ -112,10 +117,7 @@ nav a:hover {
 .wp-block-button__link:hover {
   color: var(--wp--preset--color--foreground);
   background-color: var(--wp--preset--color--background);
-}
-
-.wp-block-columns {
-  /* gap: var(--wp--custom--spacing--gap--horizontal, 32px) !important; */
+  opacity: 0.9;
 }
 
 /*
@@ -143,7 +145,7 @@ nav a:hover {
 }
 
 .wp-block-separator.is-style-default {
-    max-width: 60px;
+  max-width: 60px;
 }
 
 /* Theme specific styles */

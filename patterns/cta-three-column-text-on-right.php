@@ -11,7 +11,7 @@
     <!-- wp:column -->
     <div class="wp-block-column mobile-order-2">
         <!-- wp:image {"id":209,"sizeSlug":"large","linkDestination":"none"} -->
-        <figure class="wp-block-image size-large"><img src="<?php echo esc_url(get_template_directory_uri()) . '/assets/images/orange-cocktail-min.jpg' ?>" alt="" class="wp-image-209" /></figure>
+        <figure class="wp-block-image size-large"><img src="<?php echo esc_url(get_template_directory_uri()) . '/assets/images/gin-and-tonic.jpg' ?>" alt="" class="wp-image-209" /></figure>
         <!-- /wp:image -->
     </div>
     <!-- /wp:column -->
@@ -19,7 +19,7 @@
     <!-- wp:column -->
     <div class="wp-block-column mobile-order-1">
         <!-- wp:image {"id":210,"sizeSlug":"large","linkDestination":"none"} -->
-        <figure class="wp-block-image size-large"><img src="<?php echo esc_url(get_template_directory_uri()) . '/assets/images/fig-cocktail-min.jpg' ?>" alt="" class="wp-image-210" /></figure>
+        <figure class="wp-block-image size-large"><img src="<?php echo esc_url(get_template_directory_uri()) . '/assets/images/fruit-punch.jpg' ?>" alt="" class="wp-image-210" /></figure>
         <!-- /wp:image -->
     </div>
     <!-- /wp:column -->

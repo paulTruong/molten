@@ -7,8 +7,8 @@
  */
 ?>
 
-<!-- wp:cover {"url":"<?php echo esc_url(get_template_directory_uri()) . '/assets/images/warm-dinner-setting-min.jpg' ?>","id":133,"dimRatio":80,"minHeight":100,"minHeightUnit":"vh","contentPosition":"center center","align":"full"} -->
-<div class="wp-block-cover alignfull" style="min-height:100vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-80 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-133" alt="" src="<?php echo esc_url(get_template_directory_uri()) . '/assets/images/warm-dinner-setting-min.jpg' ?>" data-object-fit="cover" />
+<!-- wp:cover {"url":"<?php echo esc_url(get_template_directory_uri()) . '/assets/images/pastries.jpg' ?>","id":133,"dimRatio":80,"minHeight":100,"minHeightUnit":"vh","contentPosition":"center center","align":"full"} -->
+<div class="wp-block-cover alignfull" style="min-height:100vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-80 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-133" alt="" src="<?php echo esc_url(get_template_directory_uri()) . '/assets/images/pastries.jpg' ?>" data-object-fit="cover" />
     <div class="wp-block-cover__inner-container">
         <!-- wp:group {"textColor":"background","layout":{"inherit":false}} -->
         <div class="wp-block-group has-background-color has-text-color">

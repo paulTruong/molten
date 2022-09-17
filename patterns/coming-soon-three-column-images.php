@@ -21,11 +21,11 @@
     <!-- /wp:spacer -->
 
     <!-- wp:heading {"textAlign":"center","fontSize":"huge"} -->
-    <h2 class="has-text-align-center has-huge-font-size">Opening soon</h2>
+    <h2 class="has-text-align-center has-huge-font-size"><?php esc_html_e('Opening soon:', 'molten') ?></h2>
     <!-- /wp:heading -->
 
     <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase"}}} -->
-    <p class="has-text-align-center" style="text-transform:uppercase">A new Australian dining experience. <br>Opening in the heart of the city on 01.01.2023</p>
+    <p class="has-text-align-center" style="text-transform:uppercase"><?php esc_html_e('A new Australian dining experience.', 'molten') ?><br><?php esc_html_e('Opening in the heart of the city on 01.01.2023', 'molten') ?></p>
     <!-- /wp:paragraph -->
 
     <!-- wp:spacer {"height":"8px"} -->

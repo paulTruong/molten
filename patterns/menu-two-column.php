@@ -13,17 +13,17 @@
         <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"bottom","justifyContent":"space-between"}} -->
         <div class="wp-block-group">
             <!-- wp:heading {"level":3,"fontSize":"large"} -->
-            <h3 class="has-large-font-size"><strong>Eggs Benedict</strong></h3>
+            <h3 class="has-large-font-size"><strong><?php esc_html_e('Eggs Benedict', 'molten') ?></strong></h3>
             <!-- /wp:heading -->
 
             <!-- wp:paragraph {"align":"right"} -->
-            <p class="has-text-align-right">$35.00</p>
+            <p class="has-text-align-right"><?php esc_html_e('$35.00', 'molten') ?></p>
             <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
 
         <!-- wp:paragraph -->
-        <p>Sourdough Toast, Spinach, Poached Eggs, Hollandaise Sauce, Sliced Avocado.<br>Choose: Smoked Bacon/Smoked Salmon +1/ Leg Ham</p>
+        <p><?php esc_html_e('Sourdough Toast, Spinach, Poached Eggs, Hollandaise Sauce, Sliced Avocado.<br>Choose: Smoked Bacon/Smoked Salmon +1/ Leg Ham', 'molten') ?></p>
         <!-- /wp:paragraph -->
     </div>
     <!-- /wp:column -->
@@ -33,17 +33,17 @@
         <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"bottom","justifyContent":"space-between"}} -->
         <div class="wp-block-group">
             <!-- wp:heading {"level":3,"fontSize":"large"} -->
-            <h3 class="has-large-font-size"><strong>Big breakfast</strong></h3>
+            <h3 class="has-large-font-size"><strong><?php esc_html_e('Big breakfast', 'molten') ?></strong></h3>
             <!-- /wp:heading -->
 
             <!-- wp:paragraph {"align":"right"} -->
-            <p class="has-text-align-right">$35.00</p>
+            <p class="has-text-align-right"><?php esc_html_e('$35.00', 'molten') ?></p>
             <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
 
         <!-- wp:paragraph -->
-        <p>Sourdough Toast, Smoked Bacon, Free Range Eggs, Avocado, Grilled Halloumi, Hash Brown, Wilted Greens, Garlic Thyme Mushroom, Warmed Tomato</p>
+        <p><?php esc_html_e('Sourdough Toast, Smoked Bacon, Free Range Eggs, Avocado, Grilled Halloumi, Hash Brown, Wilted Greens, Garlic Thyme Mushroom, Warmed Tomato', 'molten') ?></p>
         <!-- /wp:paragraph -->
     </div>
     <!-- /wp:column -->

@@ -27,17 +27,17 @@
     <!-- wp:column -->
     <div class="wp-block-column mobile-order-0">
         <!-- wp:heading -->
-        <h2>Our drinks</h2>
+        <h2><?php esc_html_e('Our drinks', 'molten') ?></h2>
         <!-- /wp:heading -->
 
         <!-- wp:paragraph -->
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        <p><?php esc_html_e('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.', 'molten') ?></p>
         <!-- /wp:paragraph -->
 
         <!-- wp:buttons -->
         <div class="wp-block-buttons">
             <!-- wp:button -->
-            <div class="wp-block-button"><a class="wp-block-button__link">View our drinks menu</a></div>
+            <div class="wp-block-button"><a class="wp-block-button__link"><?php esc_html_e('View our drinks menu', 'molten') ?></a></div>
             <!-- /wp:button -->
         </div>
         <!-- /wp:buttons -->

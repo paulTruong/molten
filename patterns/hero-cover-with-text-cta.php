@@ -19,17 +19,17 @@
                     <!-- wp:group {"align":"wide","layout":{"inherit":false}} -->
                     <div class="wp-block-group alignwide">
                         <!-- wp:heading {"textAlign":"left"} -->
-                        <h2 class="has-text-align-left">Fresh ingredients, cooked simply</h2>
+                        <h2 class="has-text-align-left"><?php esc_html_e('Fresh ingredients, cooked simply', 'molten') ?></h2>
                         <!-- /wp:heading -->
 
                         <!-- wp:paragraph {"align":"left"} -->
-                        <p class="has-text-align-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                        <p class="has-text-align-left"><?php esc_html_e('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.', 'molten') ?></p>
                         <!-- /wp:paragraph -->
 
                         <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"}} -->
                         <div class="wp-block-buttons">
                             <!-- wp:button {"className":"is-style-fill"} -->
-                            <div class="wp-block-button is-style-fill"><a class="wp-block-button__link">Book a table</a></div>
+                            <div class="wp-block-button is-style-fill"><a class="wp-block-button__link"><?php esc_html_e('Book a table', 'molten') ?></a></div>
                             <!-- /wp:button -->
                         </div>
                         <!-- /wp:buttons -->

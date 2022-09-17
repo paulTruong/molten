@@ -10,7 +10,7 @@
 <!-- wp:group {"align":"wide","style":{"spacing":{"margin":{"top":"var(--wp--custom--spacing--gap--vertical, 32px)","bottom":"var(--wp--custom--spacing--gap--vertical, 32px)"}}}} -->
 <div class="wp-block-group alignwide" style="margin-top:var(--wp--custom--spacing--gap--vertical, 32px);margin-bottom:var(--wp--custom--spacing--gap--vertical, 32px)">
     <!-- wp:heading {"textAlign":"left","align":"wide","fontSize":"huge"} -->
-    <h2 class="alignwide has-text-align-left has-huge-font-size">Fresh, locally sourced produce <br>in a relaxed atmosphere</h2>
+    <h2 class="alignwide has-text-align-left has-huge-font-size"><?php esc_html_e('Fresh, locally sourced produce ', 'molten') ?><br><?php esc_html_e('in a relaxed atmosphere', 'molten') ?></h2>
     <!-- /wp:heading -->
 
     <!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"top":"var(--wp--custom--spacing--gap--vertical, 32px)"}}}} -->
@@ -18,7 +18,7 @@
         <!-- wp:column {"verticalAlignment":"bottom","width":"30%"} -->
         <div class="wp-block-column is-vertically-aligned-bottom" style="flex-basis:30%">
             <!-- wp:paragraph -->
-            <p>Wattle serves Australian cuisine with a belief that good food made from fresh, locally sourced ingredients in a relaxing atmosphere makes for the best dining experience.</p>
+            <p><?php esc_html_e('Wattle serves Australian cuisine with a belief that good food made from fresh, locally sourced ingredients in a relaxing atmosphere makes for the best dining experience.', 'molten') ?></p>
             <!-- /wp:paragraph -->
         </div>
         <!-- /wp:column -->

@@ -44,11 +44,11 @@
     <!-- wp:group {"layout":{"inherit":true}} -->
     <div class="wp-block-group">
         <!-- wp:heading {"textAlign":"center"} -->
-        <h2 class="has-text-align-center">New restaurant <br>opening soon</h2>
+        <h2 class="has-text-align-center"><?php esc_html_e('New restaurant', 'molten') ?><br><?php esc_html_e('opening soon', 'molten') ?></h2>
         <!-- /wp:heading -->
 
         <!-- wp:paragraph {"align":"center"} -->
-        <p class="has-text-align-center">01.01.2023</p>
+        <p class="has-text-align-center"><?php esc_html_e('01.01.2023', 'molten') ?></p>
         <!-- /wp:paragraph -->
 
         <!-- wp:image {"align":"center","id":126,"height":500,"sizeSlug":"large","linkDestination":"none"} -->
@@ -62,7 +62,7 @@
     <!-- /wp:spacer -->
 
     <!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center">© 2022 Molten Theme</p>
+    <p class="has-text-align-center"><?php esc_html_e('© 2022 Molten Theme', 'molten') ?></p>
     <!-- /wp:paragraph -->
 
     <!-- wp:spacer {"height":"16px"} -->

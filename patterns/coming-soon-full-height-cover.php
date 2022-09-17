@@ -29,11 +29,11 @@
                 <!-- wp:column {"verticalAlignment":"center","width":"25%","layout":{"inherit":true}} -->
                 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:25%">
                     <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"medium"} -->
-                    <h3 class="has-text-align-center has-medium-font-size">Opening on:</h3>
+                    <h3 class="has-text-align-center has-medium-font-size"><?php esc_html_e('Opening on:', 'molten') ?></h3>
                     <!-- /wp:heading -->
 
                     <!-- wp:paragraph {"align":"center"} -->
-                    <p class="has-text-align-center">01.01.2023</p>
+                    <p class="has-text-align-center"><?php esc_html_e('01.01.2023', 'molten') ?></p>
                     <!-- /wp:paragraph -->
                 </div>
                 <!-- /wp:column -->
@@ -41,11 +41,11 @@
                 <!-- wp:column {"verticalAlignment":"center","width":"50%","layout":{"inherit":true}} -->
                 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
                     <!-- wp:heading {"textAlign":"center","fontSize":"xx-large"} -->
-                    <h2 class="has-text-align-center has-xx-large-font-size">Coming soon</h2>
+                    <h2 class="has-text-align-center has-xx-large-font-size"><?php esc_html_e('Coming soon', 'molten') ?></h2>
                     <!-- /wp:heading -->
 
                     <!-- wp:paragraph {"align":"center","fontSize":"medium"} -->
-                    <p class="has-text-align-center has-medium-font-size">A new Australian dining experience coming soon to <br>the heart of the city</p>
+                    <p class="has-text-align-center has-medium-font-size"><?php esc_html_e('A new Australian dining experience coming soon to', 'molten') ?><br><?php esc_html_e('the heart of the city', 'molten') ?></p>
                     <!-- /wp:paragraph -->
                 </div>
                 <!-- /wp:column -->
@@ -53,11 +53,11 @@
                 <!-- wp:column {"verticalAlignment":"center","width":"25%","layout":{"inherit":true}} -->
                 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:25%">
                     <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"medium"} -->
-                    <h3 class="has-text-align-center has-medium-font-size">Location:</h3>
+                    <h3 class="has-text-align-center has-medium-font-size"><?php esc_html_e('Location:', 'molten') ?></h3>
                     <!-- /wp:heading -->
 
                     <!-- wp:paragraph {"align":"center"} -->
-                    <p class="has-text-align-center">123 Test Street<br>Braddon, 2612, ACT</p>
+                    <p class="has-text-align-center"><?php esc_html_e('123 Test Street', 'molten') ?><br><?php esc_html_e('Braddon, 2612, ACT', 'molten') ?></p>
                     <!-- /wp:paragraph -->
                 </div>
                 <!-- /wp:column -->

@@ -14,11 +14,11 @@
         <!-- wp:group {"style":{"spacing":{"padding":{"top":"32px","right":"32px","bottom":"32px","left":"32px"}}},"layout":{"contentSize":"550px"}} -->
         <div class="wp-block-group" style="padding-top:32px;padding-right:32px;padding-bottom:32px;padding-left:32px">
             <!-- wp:heading {"textAlign":"center"} -->
-            <h2 class="has-text-align-center">A first class <br>dining experience</h2>
+            <h2 class="has-text-align-center"><?php esc_html_e('A first class ', 'molten') ?><br><?php esc_html_e('dining experience', 'molten') ?></h2>
             <!-- /wp:heading -->
 
             <!-- wp:paragraph {"align":"center"} -->
-            <p class="has-text-align-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</p>
+            <p class="has-text-align-center"><?php esc_html_e('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate', 'molten') ?></p>
             <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->

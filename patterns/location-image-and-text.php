@@ -11,27 +11,27 @@
     <figure class="wp-block-media-text__media" style="background-image:url(<?php echo esc_url(get_template_directory_uri()) . '/assets/images/coffee-shop-patio.jpg' ?>);background-position:76% 68%"><img src="<?php echo esc_url(get_template_directory_uri()) . '/assets/images/coffee-shop-patio.jpg' ?>" alt="" class="wp-image-126 size-full" /></figure>
     <div class="wp-block-media-text__content">
         <!-- wp:heading {"style":{"spacing":{"margin":{"top":"0px","bottom":"32px"}}}} -->
-        <h2 style="margin-top:0px;margin-bottom:32px">Where to find us</h2>
+        <h2 style="margin-top:0px;margin-bottom:32px"><?php esc_html_e('Where to find us', 'molten') ?></h2>
         <!-- /wp:heading -->
 
         <!-- wp:paragraph -->
-        <p>123 Test Street, Braddon ACT 2612</p>
+        <p><?php esc_html_e('123 Test Street, Braddon ACT 2612', 'molten') ?></p>
         <!-- /wp:paragraph -->
 
         <!-- wp:heading {"level":3} -->
-        <h3>Opening Hours</h3>
+        <h3><?php esc_html_e('Opening Hours', 'molten') ?></h3>
         <!-- /wp:heading -->
 
         <!-- wp:paragraph -->
-        <p><strong>Lunch<br></strong><em>Monday – Sunday</em><br>11:30am to 2:30pm<br><br><strong>Dinner</strong><br><em>Monday – Sunday</em><br>5:30pm to 9:30pm</p>
+        <p><strong><?php esc_html_e('Lunch', 'molten') ?><br></strong><em><?php esc_html_e('Monday – Sunday', 'molten') ?></em><br><?php esc_html_e('11:30am to 2:30pm', 'molten') ?><br><br><strong><?php esc_html_e('Dinner', 'molten') ?></strong><br><em><?php esc_html_e('Monday – Sunday', 'molten') ?></em><br><?php esc_html_e('5:30pm to 9:30pm', 'molten') ?></p>
         <!-- /wp:paragraph -->
 
         <!-- wp:heading {"level":3} -->
-        <h3>Contact</h3>
+        <h3><?php esc_html_e('Contact', 'molten') ?></h3>
         <!-- /wp:heading -->
 
         <!-- wp:paragraph -->
-        <p>Phone: (02) 6262 6888<br>Email: restaurant@email.com</p>
+        <p><?php esc_html_e('Phone: (02) 6262 6888', 'molten') ?><br><?php esc_html_e('Email: restaurant@email.com', 'molten') ?></p>
         <!-- /wp:paragraph -->
     </div>
 </div>

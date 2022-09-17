@@ -16,11 +16,11 @@
     <!-- wp:group {"align":"wide","layout":{"inherit":true}} -->
     <div class="wp-block-group alignwide">
         <!-- wp:heading {"textAlign":"center","align":"wide","fontSize":"huge"} -->
-        <h2 class="alignwide has-text-align-center has-huge-font-size">Care &amp; Perfection</h2>
+        <h2 class="alignwide has-text-align-center has-huge-font-size"><?php esc_html_e('Care & Perfection', 'molten') ?></h2>
         <!-- /wp:heading -->
 
         <!-- wp:paragraph {"align":"center"} -->
-        <p class="has-text-align-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
+        <p class="has-text-align-center"><?php esc_html_e('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.', 'molten') ?></p>
         <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->

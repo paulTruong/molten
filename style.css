@@ -6,7 +6,7 @@ Description: A theme for passionate chefs and restauranteurs.
 Requires at least: 5.9
 Tested up to: 5.9
 Requires PHP: 5.6
-Version: 1.0.1
+Version: 1.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: molten
@@ -87,39 +87,14 @@ a {
   transition: background-color 200ms ease-out;
 }
 
-a:hover {
-  background-color: var(--wp--preset--color--foreground);
-  color: var(--wp--preset--color--background);
-}
-
-.wp-block-site-title a:hover,
-.custom-logo-link:hover,
-nav a:hover {
-  color: var(--wp--preset--color--foreground);
-  background-color: unset;
-}
-
-.wp-social-link a:hover {
-  background-color: unset;
-}
-
-.wp-block-navigation .wp-block-navigation-item a:hover,
-.wp-block-navigation .wp-block-navigation-item a:focus {
-  text-decoration: underline;
-  text-decoration-style: solid;
-}
-
 /*
  * Button hover styles.
  * Necessary until the following issue is resolved in Gutenberg:
  * https://github.com/WordPress/gutenberg/issues/27075
  */
-
 .wp-block-search__button:hover,
 .wp-block-file .wp-block-file__button:hover,
 .wp-block-button__link:hover {
-  color: var(--wp--preset--color--foreground);
-  background-color: var(--wp--preset--color--background);
   opacity: 0.9;
 }
 

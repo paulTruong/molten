@@ -152,36 +152,61 @@
                     ]
                 }
             ],
+            "fluid": true,
             "fontSizes": [
                 {
                     "name": "Small",
                     "slug": "small",
-                    "size": "clamp(0.875rem, 1vw, 1rem)"
+                    "size": "0.875rem",
+                    "fluid": {
+                        "min": "0.875rem",
+                        "max": "1rem"
+                    }
                 },
                 {
                     "name": "Medium",
                     "slug": "medium",
-                    "size": "clamp(1rem, 2vw, 1.25rem)"
+                    "size": "1rem",
+                    "fluid": {
+                        "min": "1rem",
+                        "max": "1.25rem"
+                    }
                 },
                 {
                     "name": "Large",
                     "slug": "large",
-                    "size": "clamp(1.5rem, 4vw, 2.25rem)"
+                    "size": "1.75rem",
+                    "fluid": {
+                        "min": "1.5rem",
+                        "max": "2.25rem"
+                    }
                 },
                 {
                     "name": "Extra Large",
                     "slug": "x-large",
-                    "size": "clamp(1.875rem, 6vw, 4.5rem)"
+                    "size": "2.5rem",
+                    "fluid": {
+                        "min": "1.875rem",
+                        "max": "4.5rem"
+                    }
                 },
                 {
                     "name": "Double Extra Large",
                     "slug": "xx-large",
-                    "size": "clamp(2.5rem, 8vw, 5.25rem)"
+                    "size": "3.25rem",
+                    "fluid": {
+                        "min": "2.5rem",
+                        "max": " 5.25rem"
+                    }
                 },
                 {
                     "name": "Huge",
                     "slug": "huge",
-                    "size": "clamp(2.5rem, 13vw, 6.25rem)"
+                    "size": "5rem",
+                    "fluid": {
+                        "min": "3rem",
+                        "max": "6.25rem"
+                    }
                 }
             ]
         }
